@@ -1,0 +1,207 @@
+{
+  "minorItem": false,
+  "rarity": 0,
+  "itemTags": [
+    0,
+    3,
+    200,
+    101
+  ],
+  "itemName": "QuantumLeap",
+  "title": {
+    "m_TableReference": {
+      "m_TableCollectionName": "Items"
+    },
+    "m_TableEntryReference": {
+      "m_KeyId": 0,
+      "m_Key": "Active_Boost_title"
+    },
+    "m_FallbackState": 0,
+    "m_WaitForCompletion": false,
+    "m_LocalVariables": [
+    ]
+  },
+  "usesTriggerDescription": false,
+  "triggerDescription": {
+    "m_TableReference": {
+      "m_TableCollectionName": "GUID:feec143810138f44f95e83b4bd06a3e8"
+    },
+    "m_TableEntryReference": {
+      "m_KeyId": 52779938430976,
+      "m_Key": ""
+    },
+    "m_FallbackState": 0,
+    "m_WaitForCompletion": false,
+    "m_LocalVariables": [
+    ]
+  },
+  "usesEffectDescription": false,
+  "description": {
+    "m_TableReference": {
+      "m_TableCollectionName": "GUID:feec143810138f44f95e83b4bd06a3e8"
+    },
+    "m_TableEntryReference": {
+      "m_KeyId": 3713875525632,
+      "m_Key": ""
+    },
+    "m_FallbackState": 0,
+    "m_WaitForCompletion": false,
+    "m_LocalVariables": [
+    ]
+  },
+  "flavorText": {
+    "m_TableReference": {
+      "m_TableCollectionName": "Items"
+    },
+    "m_TableEntryReference": {
+      "m_KeyId": 0,
+      "m_Key": "Active_Boost_flavor"
+    },
+    "m_FallbackState": 0,
+    "m_WaitForCompletion": false,
+    "m_LocalVariables": [
+    ]
+  },
+  "iconScaleModifier": 1.0,
+  "statsAfterTrigger": false,
+  "cooldown": 20.0,
+  "triggerType": 7,
+  "triggerConditions": [
+  ],
+  "effects": [
+    {
+      "rid": 1000
+    }
+  ],
+  "stats": {
+    "maxHealth": {
+      "baseValue": 0.0,
+      "multiplier": 1.0
+    },
+    "runSpeed": {
+      "baseValue": 0.0,
+      "multiplier": 1.0
+    },
+    "airSpeed": {
+      "baseValue": 0.0,
+      "multiplier": 1.0
+    },
+    "turnSpeed": {
+      "baseValue": 0.0,
+      "multiplier": 1.0
+    },
+    "drag": {
+      "baseValue": 0.0,
+      "multiplier": 1.0
+    },
+    "gravity": {
+      "baseValue": 0.0,
+      "multiplier": 1.0
+    },
+    "fastFallSpeed": {
+      "baseValue": 0.0,
+      "multiplier": 1.0
+    },
+    "fastFallLerp": {
+      "baseValue": 0.0,
+      "multiplier": 1.0
+    },
+    "lives": {
+      "baseValue": 0.0,
+      "multiplier": 1.0
+    },
+    "dashes": {
+      "baseValue": 0.0,
+      "multiplier": 1.0
+    },
+    "boost": {
+      "baseValue": 0.0,
+      "multiplier": 1.0
+    },
+    "luck": {
+      "baseValue": 0.0,
+      "multiplier": 1.0
+    },
+    "startWithEnergyPercentage": {
+      "baseValue": 0.0,
+      "multiplier": 1.0
+    },
+    "maxEnergy": {
+      "baseValue": 0.0,
+      "multiplier": 1.0
+    },
+    "itemPriceMultiplier": {
+      "baseValue": 0.0,
+      "multiplier": 1.0
+    },
+    "itemRarity": {
+      "baseValue": 0.0,
+      "multiplier": 1.0
+    },
+    "sparkMultiplier": {
+      "baseValue": 0.0,
+      "multiplier": 1.0
+    },
+    "startingResource": {
+      "baseValue": 0.0,
+      "multiplier": 1.0
+    },
+    "energyGain": {
+      "baseValue": 0.0,
+      "multiplier": 1.0
+    },
+    "damageMultiplier": {
+      "baseValue": 0.0,
+      "multiplier": 1.0
+    },
+    "sparkPickupRange": {
+      "baseValue": 0.0,
+      "multiplier": 1.0
+    },
+    "extraLevelSparks": {
+      "baseValue": 0.0,
+      "multiplier": 1.0
+    },
+    "extraLevelDifficulty": {
+      "baseValue": 0.0,
+      "multiplier": 1.0
+    }
+  },
+  "effectEvent": {
+    "m_PersistentCalls": {
+      "m_Calls": [
+      ]
+    }
+  },
+  "keyDownEvent": {
+    "m_PersistentCalls": {
+      "m_Calls": [
+      ]
+    }
+  },
+  "keyUpEvent": {
+    "m_PersistentCalls": {
+      "m_Calls": [
+      ]
+    }
+  },
+  "references": {
+    "version": 2,
+    "RefIds": [
+      {
+        "rid": 1000,
+        "type": {
+          "class": "AddVariable_TemporaryEffect",
+          "ns": "",
+          "asm": "Assembly-CSharp"
+        },
+        "data": {
+          "variableType": 1,
+          "amount": 0.5,
+          "duration": 5.0,
+          "showDurationInTooltips": true
+        }
+      }
+    ]
+  }
+}

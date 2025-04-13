@@ -1,0 +1,42 @@
+{
+  "HypernovaCore_Title": {
+    "default": "Hypernova Core"
+  },
+  "HypernovaCore_flavor": {
+    "default": "Test"
+  },
+  "HypernovaCore_desc": {
+    "default": "Test"
+  },
+  "HypernovaCore_trigger": {
+    "default": "Test"
+  },
+
+
+  "CelestialSurge_Title": {
+    "default": "Celestial Surge"
+  },
+  "CelestialSurge_flavor": {
+    "default": "Test"
+  },
+  "CelestialSurge_desc": {
+    "default": "Test"
+  },
+  "CelestialSurge_trigger": {
+    "default": "Test"
+  },
+
+
+  "QuantumLeap_Title": {
+    "default": "Quantum Leap"
+  },
+  "QuantumLeap_flavor": {
+    "default": "Test"
+  },
+  "QuantumLeap_desc": {
+    "default": "Test"
+  },
+  "QuantumLeap_trigger": {
+    "default": "Test"
+  }
+}
