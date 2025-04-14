@@ -10,39 +10,39 @@
   "itemName": "QuantumLeap",
   "title": {
     "m_TableReference": {
-      "m_TableCollectionName": "Items"
+      "m_TableCollectionName": "ConvergenceItems"
     },
     "m_TableEntryReference": {
       "m_KeyId": 0,
-      "m_Key": "Active_Boost_title"
+      "m_Key": "QuantumLeap_Title"
     },
     "m_FallbackState": 0,
     "m_WaitForCompletion": false,
     "m_LocalVariables": [
     ]
   },
-  "usesTriggerDescription": false,
+  "usesTriggerDescription": true,
   "triggerDescription": {
     "m_TableReference": {
-      "m_TableCollectionName": "GUID:feec143810138f44f95e83b4bd06a3e8"
+      "m_TableCollectionName": "ConvergenceItems"
     },
     "m_TableEntryReference": {
-      "m_KeyId": 52779938430976,
-      "m_Key": ""
+      "m_KeyId": 0,
+      "m_Key": "QuantumLeap_trigger"
     },
     "m_FallbackState": 0,
     "m_WaitForCompletion": false,
     "m_LocalVariables": [
     ]
   },
-  "usesEffectDescription": false,
+  "usesEffectDescription": true,
   "description": {
     "m_TableReference": {
-      "m_TableCollectionName": "GUID:feec143810138f44f95e83b4bd06a3e8"
+      "m_TableCollectionName": "ConvergenceItems"
     },
     "m_TableEntryReference": {
-      "m_KeyId": 3713875525632,
-      "m_Key": ""
+      "m_KeyId": 0,
+      "m_Key": "QuantumLeap_desc"
     },
     "m_FallbackState": 0,
     "m_WaitForCompletion": false,
@@ -51,11 +51,11 @@
   },
   "flavorText": {
     "m_TableReference": {
-      "m_TableCollectionName": "Items"
+      "m_TableCollectionName": "ConvergenceItems"
     },
     "m_TableEntryReference": {
       "m_KeyId": 0,
-      "m_Key": "Active_Boost_flavor"
+      "m_Key": "QuantumLeap_flavor"
     },
     "m_FallbackState": 0,
     "m_WaitForCompletion": false,

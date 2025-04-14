@@ -31,12 +31,12 @@
     "default": "Quantum Leap"
   },
   "QuantumLeap_flavor": {
-    "default": "Test"
+    "default": "Flavor Text"
   },
   "QuantumLeap_desc": {
-    "default": "Test"
+    "default": "Desc Text"
   },
   "QuantumLeap_trigger": {
-    "default": "Test"
+    "default": "Trigger Text"
   }
 }
