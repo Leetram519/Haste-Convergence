@@ -7,9 +7,8 @@ Haste : Convergence is a content mod for Haste : Broken Worlds aiming to add new
 | --- | --- | --- | --- | --- |
 | --- | Convergence Shard | Legendary | Passive | Give you +100% **Overheal**. |
 |  |  |  | |  |
-| --- | Hypernova Boots | Uncommon | Active | Gain invulnerability, BUT take 10% health per second while on the ground. 5s Duration. 120s Cooldown. |
+| --- | Hypernova Boots | Uncommon | Active | Gives you a boost forward at a velocity of 140% of your current velocity. +100% Damage Taken for 10 seconds. (30s cooldown) |
 | --- | Core of the Diviner | Epic | Active | While held down, **Become Intangible**, Speed is **locked at 130% of your maximum speed**, but **lose 15 health per second** (45s cooldown). |
-| --- | Celestial Surge | Uncommon | Active | +50% Boost, +100% Damage taken. 10s Duration. 60s Cooldown. |
 
 ## New Mechanics
 
