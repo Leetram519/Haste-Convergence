@@ -1,42 +1,40 @@
 {
-  "HypernovaCore_Title": {
-    "default": "Hypernova Core"
+  "InductionVitamins_Title": {
+    "default": "Induction Vitamins"
   },
-  "HypernovaCore_flavor": {
-    "default": "Test"
+  "InductionVitamins_flavor": {
+    "default": "The effect of the vitamins, injected at a distance by induction!"
   },
-  "HypernovaCore_desc": {
-    "default": "Test"
+  "InductionVitamins_desc": {
+    "default": "Gives +150% Max Overheal and +50% Overheal amount."
   },
-  "HypernovaCore_trigger": {
-    "default": "Test"
-  },
-
-
-  "CelestialSurge_Title": {
-    "default": "Celestial Surge"
-  },
-  "CelestialSurge_flavor": {
-    "default": "Test"
-  },
-  "CelestialSurge_desc": {
-    "default": "Test"
-  },
-  "CelestialSurge_trigger": {
-    "default": "Test"
+  "InductionVitamins_trigger": {
+    "default": "Passive"
   },
 
+  "HypernovaBoots_Title": {
+    "default": "Hypernova Boots"
+  },
+  "HypernovaBoots_flavor": {
+    "default": "I've come here to chew gum and run fast... And I'm all out of gum."
+  },
+  "HypernovaBoots_desc": {
+    "default": "Gives you a <color=yellow>boost forward</color> at a velocity of <color=yellow>150% of your current velocity</color>."
+  },
+  "HypernovaBoots_trigger": {
+    "default": "On Activated"
+  },
 
-  "QuantumLeap_Title": {
-    "default": "Quantum Leap"
+  "DivinerCore_Title": {
+    "default": "Core of the Diviner"
   },
-  "QuantumLeap_flavor": {
-    "default": "Flavor Text"
+  "DivinerCore_flavor": {
+    "default": "The Herald reported unconfirmed sightings of Blight on the surface. - Third Wing, House Beyond"
   },
-  "QuantumLeap_desc": {
-    "default": "Desc Text"
+  "DivinerCore_desc": {
+    "default": "Become Intangible, Speed is locked at 130% of your maximum speed, but lose 15 health per second."
   },
-  "QuantumLeap_trigger": {
-    "default": "Trigger Text"
+  "DivinerCore_trigger": {
+    "default": "While held down,"
   }
 }

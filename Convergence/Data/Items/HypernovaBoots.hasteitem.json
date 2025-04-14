@@ -2,19 +2,18 @@
   "minorItem": false,
   "rarity": 1,
   "itemTags": [
-    5,
-    20,
-    102,
-    200
+    0,
+    4,
+    201
   ],
-  "itemName": "HypernovaCore_Title",
+  "itemName": "HypernovaBoots",
   "title": {
     "m_TableReference": {
       "m_TableCollectionName": "ConvergenceItems"
     },
     "m_TableEntryReference": {
       "m_KeyId": 0,
-      "m_Key": "Hypernova_Core_title"
+      "m_Key": "HypernovaBoots_Title"
     },
     "m_FallbackState": 0,
     "m_WaitForCompletion": false,
@@ -28,21 +27,21 @@
     },
     "m_TableEntryReference": {
       "m_KeyId": 0,
-      "m_Key": "HypernovaCore_trigger"
+      "m_Key": "HypernovaBoots_trigger"
     },
     "m_FallbackState": 0,
     "m_WaitForCompletion": false,
     "m_LocalVariables": [
     ]
   },
-  "usesEffectDescription": false,
+  "usesEffectDescription": true,
   "description": {
     "m_TableReference": {
       "m_TableCollectionName": "ConvergenceItems"
     },
     "m_TableEntryReference": {
       "m_KeyId": 0,
-      "m_Key": "HypernovaCore_desc"
+      "m_Key": "HypernovaBoots_desc"
     },
     "m_FallbackState": 0,
     "m_WaitForCompletion": false,
@@ -55,7 +54,7 @@
     },
     "m_TableEntryReference": {
       "m_KeyId": 0,
-      "m_Key": "HypernovaCore_flavor"
+      "m_Key": "HypernovaBoots_flavor"
     },
     "m_FallbackState": 0,
     "m_WaitForCompletion": false,
@@ -64,13 +63,16 @@
   },
   "iconScaleModifier": 1.0,
   "statsAfterTrigger": false,
-  "cooldown": 15.0,
+  "cooldown": 30.0,
   "triggerType": 7,
   "triggerConditions": [
   ],
   "effects": [
     {
       "rid": 1000
+    },
+    {
+      "rid": 1001
     }
   ],
   "stats": {
@@ -191,15 +193,117 @@
       {
         "rid": 1000,
         "type": {
-          "class": "AddVariable_TemporaryEffect",
+          "class": "AddVariable_TemporaryStats",
           "ns": "",
           "asm": "Assembly-CSharp"
         },
         "data": {
-          "variableType": 1,
-          "amount": 0.5,
-          "duration": 5.0,
-          "showDurationInTooltips": true
+          "stats": {
+            "maxHealth": {
+              "baseValue": 0.0,
+              "multiplier": 1.0
+            },
+            "runSpeed": {
+              "baseValue": 0.0,
+              "multiplier": 1.0
+            },
+            "airSpeed": {
+              "baseValue": 0.0,
+              "multiplier": 1.0
+            },
+            "turnSpeed": {
+              "baseValue": 0.0,
+              "multiplier": 1.0
+            },
+            "drag": {
+              "baseValue": 0.0,
+              "multiplier": 1.0
+            },
+            "gravity": {
+              "baseValue": 0.0,
+              "multiplier": 1.0
+            },
+            "fastFallSpeed": {
+              "baseValue": 0.0,
+              "multiplier": 1.0
+            },
+            "fastFallLerp": {
+              "baseValue": 0.0,
+              "multiplier": 1.0
+            },
+            "lives": {
+              "baseValue": 0.0,
+              "multiplier": 1.0
+            },
+            "dashes": {
+              "baseValue": 0.0,
+              "multiplier": 1.0
+            },
+            "boost": {
+              "baseValue": 0.0,
+              "multiplier": 1.5
+            },
+            "luck": {
+              "baseValue": 0.0,
+              "multiplier": 1.0
+            },
+            "startWithEnergyPercentage": {
+              "baseValue": 0.0,
+              "multiplier": 1.0
+            },
+            "maxEnergy": {
+              "baseValue": 0.0,
+              "multiplier": 1.0
+            },
+            "itemPriceMultiplier": {
+              "baseValue": 0.0,
+              "multiplier": 1.0
+            },
+            "itemRarity": {
+              "baseValue": 0.0,
+              "multiplier": 1.0
+            },
+            "sparkMultiplier": {
+              "baseValue": 0.0,
+              "multiplier": 1.0
+            },
+            "startingResource": {
+              "baseValue": 0.0,
+              "multiplier": 1.0
+            },
+            "energyGain": {
+              "baseValue": 0.0,
+              "multiplier": 1.0
+            },
+            "damageMultiplier": {
+              "baseValue": 0.0,
+              "multiplier": 2.0
+            },
+            "sparkPickupRange": {
+              "baseValue": 0.0,
+              "multiplier": 1.0
+            },
+            "extraLevelSparks": {
+              "baseValue": 0.0,
+              "multiplier": 1.0
+            },
+            "extraLevelDifficulty": {
+              "baseValue": 0.0,
+              "multiplier": 1.0
+            }
+          },
+          "duration": 10.0
+        }
+      },
+      {
+        "rid": 1001,
+        "type": {
+          "class": "AddVariable_Boost",
+          "ns": "",
+          "asm": "Assembly-CSharp"
+        },
+        "data": {
+          "addSpeed": 50.0
         }
       }
     ]

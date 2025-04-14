@@ -17,4 +17,8 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Data\Items\InductionVitamins.hasteitem.json" />
+  </ItemGroup>
 </Project>

@@ -23,14 +23,14 @@ public class Program
 
     static void UnlockItems()
     {
-        FactSystem.SetFact(new Fact("HypernovaCore_ShowItem"), 1.0f);
-        FactSystem.SetFact(new Fact("item_unlocked_HypernovaCore"), 1.0f);
+        FactSystem.SetFact(new Fact("HypernovaBoots_ShowItem"), 1.0f);
+        FactSystem.SetFact(new Fact("item_unlocked_HypernovaBoots"), 1.0f);
 
-        FactSystem.SetFact(new Fact("CelestialSurge_ShowItem"), 1.0f);
-        FactSystem.SetFact(new Fact("item_unlocked_CelestialSurge"), 1.0f);
+        FactSystem.SetFact(new Fact("DivinerCore_ShowItem"), 1.0f);
+        FactSystem.SetFact(new Fact("item_unlocked_DivinerCore"), 1.0f);
 
-        FactSystem.SetFact(new Fact("QuantumLeap_ShowItem"), 1.0f);
-        FactSystem.SetFact(new Fact("item_unlocked_QuantumLeap"), 1.0f);
+        FactSystem.SetFact(new Fact("InductionVitamins_ShowItem"), 1.0f);
+        FactSystem.SetFact(new Fact("item_unlocked_InductionVitamins"), 1.0f);
     }
 }
 

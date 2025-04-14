@@ -1,20 +1,20 @@
 {
   "minorItem": false,
-  "rarity": 0,
+  "rarity": 2,
   "itemTags": [
-    0,
-    3,
+    201,
     200,
-    101
+    100,
+    22
   ],
-  "itemName": "QuantumLeap",
+  "itemName": "DivinerCore",
   "title": {
     "m_TableReference": {
       "m_TableCollectionName": "ConvergenceItems"
     },
     "m_TableEntryReference": {
       "m_KeyId": 0,
-      "m_Key": "QuantumLeap_Title"
+      "m_Key": "DivinerCore_Title"
     },
     "m_FallbackState": 0,
     "m_WaitForCompletion": false,
@@ -28,7 +28,7 @@
     },
     "m_TableEntryReference": {
       "m_KeyId": 0,
-      "m_Key": "QuantumLeap_trigger"
+      "m_Key": "DivinerCore_trigger"
     },
     "m_FallbackState": 0,
     "m_WaitForCompletion": false,
@@ -42,7 +42,7 @@
     },
     "m_TableEntryReference": {
       "m_KeyId": 0,
-      "m_Key": "QuantumLeap_desc"
+      "m_Key": "DivinerCore_desc"
     },
     "m_FallbackState": 0,
     "m_WaitForCompletion": false,
@@ -55,7 +55,7 @@
     },
     "m_TableEntryReference": {
       "m_KeyId": 0,
-      "m_Key": "QuantumLeap_flavor"
+      "m_Key": "DivinerCore_flavor"
     },
     "m_FallbackState": 0,
     "m_WaitForCompletion": false,
@@ -64,14 +64,11 @@
   },
   "iconScaleModifier": 1.0,
   "statsAfterTrigger": false,
-  "cooldown": 20.0,
+  "cooldown": 45.0,
   "triggerType": 7,
   "triggerConditions": [
   ],
   "effects": [
-    {
-      "rid": 1000
-    }
   ],
   "stats": {
     "maxHealth": {
@@ -188,20 +185,6 @@
   "references": {
     "version": 2,
     "RefIds": [
-      {
-        "rid": 1000,
-        "type": {
-          "class": "AddVariable_TemporaryEffect",
-          "ns": "",
-          "asm": "Assembly-CSharp"
-        },
-        "data": {
-          "variableType": 1,
-          "amount": 0.5,
-          "duration": 5.0,
-          "showDurationInTooltips": true
-        }
-      }
     ]
   }
 }

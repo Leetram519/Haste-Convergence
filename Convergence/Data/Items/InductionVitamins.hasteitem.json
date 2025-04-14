@@ -1,48 +1,47 @@
 {
   "minorItem": false,
-  "rarity": 1,
+  "rarity": 3,
   "itemTags": [
-    5,
-    20,
-    102,
+    0,
+    2,
     200
   ],
-  "itemName": "Celestial_Surge",
+  "itemName": "InductionVitamins",
   "title": {
     "m_TableReference": {
       "m_TableCollectionName": "ConvergenceItems"
     },
     "m_TableEntryReference": {
       "m_KeyId": 0,
-      "m_Key": "CelestialSurge_Title"
+      "m_Key": "InductionVitamins_Title"
     },
     "m_FallbackState": 0,
     "m_WaitForCompletion": false,
     "m_LocalVariables": [
     ]
   },
-  "usesTriggerDescription": false,
+  "usesTriggerDescription": true,
   "triggerDescription": {
     "m_TableReference": {
       "m_TableCollectionName": "ConvergenceItems"
     },
     "m_TableEntryReference": {
       "m_KeyId": 0,
-      "m_Key": "CelestialSurge_trigger"
+      "m_Key": "InductionVitamins_trigger"
     },
     "m_FallbackState": 0,
     "m_WaitForCompletion": false,
     "m_LocalVariables": [
     ]
   },
-  "usesEffectDescription": false,
+  "usesEffectDescription": true,
   "description": {
     "m_TableReference": {
       "m_TableCollectionName": "ConvergenceItems"
     },
     "m_TableEntryReference": {
       "m_KeyId": 0,
-      "m_Key": "CelestialSurge_desc"
+      "m_Key": "InductionVitamins_desc"
     },
     "m_FallbackState": 0,
     "m_WaitForCompletion": false,
@@ -55,7 +54,7 @@
     },
     "m_TableEntryReference": {
       "m_KeyId": 0,
-      "m_Key": "CelestialSurge_flavor"
+      "m_Key": "InductionVitamins_flavor"
     },
     "m_FallbackState": 0,
     "m_WaitForCompletion": false,
@@ -64,14 +63,11 @@
   },
   "iconScaleModifier": 1.0,
   "statsAfterTrigger": false,
-  "cooldown": 15.0,
-  "triggerType": 7,
+  "cooldown": 20.0,
+  "triggerType": 8,
   "triggerConditions": [
   ],
   "effects": [
-    {
-      "rid": 1000
-    }
   ],
   "stats": {
     "maxHealth": {
@@ -188,20 +184,6 @@
   "references": {
     "version": 2,
     "RefIds": [
-      {
-        "rid": 1000,
-        "type": {
-          "class": "AddVariable_TemporaryEffect",
-          "ns": "",
-          "asm": "Assembly-CSharp"
-        },
-        "data": {
-          "variableType": 1,
-          "amount": 0.5,
-          "duration": 5.0,
-          "showDurationInTooltips": true
-        }
-      }
     ]
   }
 }
