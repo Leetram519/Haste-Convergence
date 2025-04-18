@@ -5,8 +5,9 @@ Haste : Convergence is a content mod for Haste : Broken Worlds aiming to add new
 
 | Icons | Item | Rarity | Type | Effect |
 | --- | --- | --- | --- | --- |
-| --- | Induction Vitamins | Legendary | Passive | Give you +150% **Max Overheal** and +50% **Overheal amount**. |
+| --- | Halftime Show | Common | Passive | After **50% of the current fragment**, **+15% boost**. Resets on fragment exit. |
 | --- | Unstable Transmitter | Uncommon | Passive | On Damage, **Destroy** this item. After holding this item for **5 fragments**, **+2000 shards**. |
+| --- | Induction Vitamins | Legendary | Passive | Give you +150% **Max Overheal** and +50% **Overheal amount**. |
 | --- | Trial of Convergence | Legendary | Passive | On Damage or on OK or worse landing, **Destroy** this item. Increase difficulty by 100%. After holding this item for **5 fragments**, gain **Convergence**. |
 | --- | Convergence | Legendary | Passive | On Death, **Destroy** this item, and gain **Trial of Convergence**. Downsides do not apply anymore. x1.5 Boost. |
 |  |  |  | |  |
